@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Avalanche Web3 dApp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="icons8-y-96.png" type="image/x-icon">
+</head>
+<body>
+
+<main class="app">
+  <section class="card">
+
+    <header class="header">
+      <div class="logo">❄</div>
+      <div>
+        <h1>Avalanche Web3 dApp</h1>
+        <p class="subtitle">Fuji Testnet</p>
+      </div>
+    </header>
+
+    <button id="connectBtn" class="primary-btn">
+      Connect Wallet
+    </button>
+
+    <div class="info">
+
+      <div class="row">
+        <span>Status</span>
+        <strong id="status" class="badge">Disconnected</strong>
+      </div>
+
+      <div class="row">
+        <span>Wallet</span>
+        <strong id="address">-</strong>
+      </div>
+
+      <div class="row">
+        <span>Network</span>
+        <strong id="network">-</strong>
+      </div>
+
+      <div class="row">
+        <span>Balance</span>
+        <strong><span id="balance">-</span> AVAX</strong>
+      </div>
+
+      <div class="row small">
+        <span>Participant</span>
+        <strong>Ahmad Yusuf</strong>
+        <strong>251011400102</strong>
+      </div>
+
+    </div>
+
+    <p id="error" class="error"></p>
+
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
